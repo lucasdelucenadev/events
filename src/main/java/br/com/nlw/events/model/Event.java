@@ -1,7 +1,6 @@
 package br.com.nlw.events.model;
  
  import java.time.LocalDate;
-<<<<<<< HEAD
  import java.time.LocalTime;
  
  import jakarta.persistence.Column;
@@ -10,16 +9,6 @@ package br.com.nlw.events.model;
  import jakarta.persistence.GenerationType;
  import jakarta.persistence.Id;
  import jakarta.persistence.Table;
-=======
-import java.time.LocalTime;
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
->>>>>>> 322106b (new features git)
  
  @Entity
  @Table(name = "tbl_event")
@@ -41,10 +30,7 @@ import jakarta.persistence.Table;
  
      @Column(name = "price", nullable = false)
      private Double price;
-<<<<<<< HEAD
  
-=======
->>>>>>> 322106b (new features git)
      @Column(name = "start_date")
      private LocalDate startDate;
  
@@ -57,7 +43,6 @@ import jakarta.persistence.Table;
      @Column(name = "end_time")
      private LocalTime endTime;
  
-<<<<<<< HEAD
      public void setEventId(Integer eventId) {
          this.eventId = eventId;
      }
@@ -128,80 +113,3 @@ import jakarta.persistence.Table;
          this.endTime = endTime;
      }
  }
-=======
-     public Integer getEventId() {
-		return eventId;
-	}
-
-	public void setEventId(Integer eventId) {
-		this.eventId = eventId;
-	}
-
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
-	public String getPrettyName() {
-		return prettyName;
-	}
-
-	public void setPrettyName(String prettyName) {
-		this.prettyName = prettyName;
-	}
-
-	public String getLocation() {
-		return location;
-	}
-
-	public void setLocation(String location) {
-		this.location = location;
-	}
-
-	public Double getPrice() {
-		return price;
-	}
-
-	public void setPrice(Double price) {
-		this.price = price;
-	}
-
-	public LocalDate getStartDate() {
-		return startDate;
-	}
-
-	public void setStartDate(LocalDate startDate) {
-		this.startDate = startDate;
-	}
-
-	public LocalDate getEndDate() {
-		return endDate;
-	}
-
-	public void setEndDate(LocalDate endDate) {
-		this.endDate = endDate;
-	}
-
-	public LocalTime getStartTime() {
-		return startTime;
-	}
-
-	public void setStartTime(LocalTime startTime) {
-		this.startTime = startTime;
-	}
-
-	public LocalTime getEndTime() {
-		return endTime;
-	}
-
-	public void setEndTime(LocalTime endTime) {
-		this.endTime = endTime;
-	}
-
-	
- }
- 
->>>>>>> 322106b (new features git)

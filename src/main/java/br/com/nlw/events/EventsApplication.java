@@ -1,21 +1,8 @@
 package br.com.nlw.events;
-<<<<<<< HEAD
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class EventsApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(EventsApplication.class, args);
-	}
-
-}
-=======
  
  import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+ import org.springframework.boot.autoconfigure.SpringBootApplication;
  
  @SpringBootApplication
  public class EventsApplication {
@@ -25,4 +12,3 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  	}
  
  }
->>>>>>> 322106b (new features git)
